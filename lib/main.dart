@@ -57,7 +57,7 @@ class LandingPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Colors.white,
+        backgroundColor: Color.fromARGB(255, 255, 255, 255),
         elevation: 0,
         title: Row(
           children: [
@@ -567,7 +567,7 @@ Widget _buildFooterSection(BuildContext context) {
                             style: GoogleFonts.poppins(
                               fontSize: 14,
                               fontWeight: FontWeight.w400,
-                              color: Colors.white,
+                              color: Color.fromARGB(255, 254, 254, 254),
                             ),
                           ),
                           TextSpan(
@@ -575,7 +575,7 @@ Widget _buildFooterSection(BuildContext context) {
                             style: GoogleFonts.poppins(
                               fontSize: 14,
                               fontWeight: FontWeight.w400,
-                              color: Colors.white70,
+                              color: Color.fromARGB(255, 255, 255, 255),
                             ),
                           ),
                         ],
@@ -592,7 +592,7 @@ Widget _buildFooterSection(BuildContext context) {
                             style: GoogleFonts.poppins(
                               fontSize: 14,
                               fontWeight: FontWeight.w400,
-                              color: Colors.white,
+                              color: Color.fromARGB(255, 253, 253, 253),
                             ),
                           ),
                           TextSpan(
@@ -600,7 +600,7 @@ Widget _buildFooterSection(BuildContext context) {
                             style: GoogleFonts.poppins(
                               fontSize: 14,
                               fontWeight: FontWeight.w400,
-                              color: Colors.white70,
+                              color: Color.fromARGB(255, 250, 248, 248),
                             ),
                           ),
                         ],
@@ -617,7 +617,7 @@ Widget _buildFooterSection(BuildContext context) {
                             style: GoogleFonts.poppins(
                               fontSize: 14,
                               fontWeight: FontWeight.w400,
-                              color: Colors.white,
+                              color: Color.fromARGB(255, 253, 253, 253),
                             ),
                           ),
                           TextSpan(
@@ -625,7 +625,7 @@ Widget _buildFooterSection(BuildContext context) {
                             style: GoogleFonts.poppins(
                               fontSize: 14,
                               fontWeight: FontWeight.w400,
-                              color: Colors.white70,
+                              color: Color.fromARGB(255, 255, 255, 255),
                               height: 1.4,
                             ),
                           ),
@@ -653,7 +653,7 @@ Widget _buildFooterSection(BuildContext context) {
                         style: GoogleFonts.poppins(
                           fontSize: 14,
                           fontWeight: FontWeight.w500,
-                          color: Colors.white,
+                          color: Color.fromARGB(255, 247, 247, 247),
                         ),
                       ),
                       const SizedBox(height: 16),
@@ -665,7 +665,7 @@ Widget _buildFooterSection(BuildContext context) {
                               height: 42,
                               decoration: BoxDecoration(
                                 borderRadius: BorderRadius.circular(6),
-                                border: Border.all(color: Colors.white24),
+                                border: Border.all(color: Color.fromARGB(255, 253, 253, 253)),
                               ),
                               child: Padding(
                                 padding: const EdgeInsets.symmetric(horizontal: 12),
@@ -673,13 +673,13 @@ Widget _buildFooterSection(BuildContext context) {
                                   decoration: InputDecoration(
                                     hintText: 'Email',
                                     hintStyle: GoogleFonts.poppins(
-                                      color: Colors.white54,
+                                      color: Color.fromARGB(255, 254, 254, 254),
                                       fontSize: 14,
                                     ),
                                     border: InputBorder.none,
                                     contentPadding: const EdgeInsets.only(bottom: 10),
                                   ),
-                                  style: GoogleFonts.poppins(color: Colors.white),
+                                  style: GoogleFonts.poppins(color: Color.fromARGB(255, 255, 255, 255)),
                                 ),
                               ),
                             ),
@@ -718,7 +718,7 @@ Widget _buildFooterSection(BuildContext context) {
           const SizedBox(height: 40),
           
           // Divider
-          const Divider(color: Colors.white10, thickness: 1),
+          const Divider(color: Color.fromARGB(255, 250, 250, 250), thickness: 1),
           const SizedBox(height: 20),
           
           // Footer bottom section
@@ -730,7 +730,7 @@ Widget _buildFooterSection(BuildContext context) {
                 '© 2023 Positivus. All Rights Reserved.',
                 style: GoogleFonts.poppins(
                   fontSize: 14,
-                  color: Colors.white70,
+                  color: Color.fromARGB(255, 250, 249, 249),
                 ),
               ),
               
@@ -739,7 +739,7 @@ Widget _buildFooterSection(BuildContext context) {
                 'Privacy Policy',
                 style: GoogleFonts.poppins(
                   fontSize: 14,
-                  color: Colors.white70,
+                  color: Color.fromARGB(255, 250, 249, 249),
                   decoration: TextDecoration.underline,
                 ),
               ),
@@ -762,12 +762,12 @@ Widget _buildTopNavigation() {
         // Logo
         Row(
           children: [
-            Icon(Icons.square, color: Colors.white, size: 20),
+            Icon(Icons.square, color: Color.fromARGB(255, 250, 249, 249), size: 20),
             const SizedBox(width: 8),
             Text(
               'Positivus',
               style: GoogleFonts.poppins(
-                color: Colors.white,
+                color: Color.fromARGB(255, 250, 248, 248),
                 fontWeight: FontWeight.w600,
                 fontSize: 18,
               ),
@@ -805,7 +805,7 @@ Widget _navLink(String text) {
     child: Text(
       text,
       style: GoogleFonts.poppins(
-        color: Colors.white,
+        color: Color.fromARGB(255, 247, 247, 247),
         fontSize: 14,
         fontWeight: FontWeight.w400,
       ),
@@ -816,7 +816,7 @@ Widget _navLink(String text) {
 Widget _socialIcon(IconData icon) {
   return Padding(
     padding: const EdgeInsets.symmetric(horizontal: 6),
-    child: Icon(icon, color: Colors.white, size: 18),
+    child: Icon(icon, color: Color.fromARGB(255, 253, 252, 252), size: 18),
   );
 }
 
@@ -861,7 +861,7 @@ Widget _socialIcon(IconData icon) {
                     'Read what our customers have to say about their experiences with AutoSpace.',
                     textAlign: TextAlign.justify,
                     style: GoogleFonts.inter(
-                      fontSize: 14,
+                      fontSize: 16,
                       color: Colors.black87,
                       height: 1.5,
                     ),
@@ -1056,11 +1056,11 @@ Widget _buildReviewCard(Map<String, String> review, BoxConstraints constraints) 
                 children: [
                   Expanded(
                     child: Text(
-                      'Check out our latest deals and special offers just for you',
+                      'Check out our latest parking slot and special offers just for you',
                       style: TextStyle(
-                        fontSize: 14,
+                        fontSize: 16,
                         color: Color.fromARGB(255, 5, 2, 2),
-                        fontWeight: FontWeight.w500,
+                        fontWeight: FontWeight.w900,
                       ),
                     ),
                   ),
@@ -1111,7 +1111,7 @@ Widget _buildReviewCard(Map<String, String> review, BoxConstraints constraints) 
                           style: const TextStyle(
                             fontSize: 20,
                             fontWeight: FontWeight.bold,
-                            color: Colors.white,
+                            color: Color.fromARGB(255, 255, 255, 255),
                           ),
                           textAlign: TextAlign.center,
                         ),
@@ -1120,7 +1120,7 @@ Widget _buildReviewCard(Map<String, String> review, BoxConstraints constraints) 
                           offer['description']!,
                           style: const TextStyle(
                             fontSize: 16,
-                            color: Colors.white,
+                            color: Color.fromARGB(255, 255, 255, 255),
                           ),
                           textAlign: TextAlign.center,
                         ),
@@ -1271,7 +1271,7 @@ class TeamSection extends StatelessWidget {
                 'See all team',
                 textAlign: TextAlign.justify,
                 style: GoogleFonts.inter(
-                  color: Colors.white,
+                  color: Color.fromARGB(255, 255, 255, 255),
                   fontSize: 16,
                   fontWeight: FontWeight.w500,
                 ),
@@ -1323,7 +1323,7 @@ class TeamSection extends StatelessWidget {
   Widget _buildTeamCard(Map<String, String> member) {
     return Container(
       decoration: BoxDecoration(
-        color: Colors.white,
+        color: Color.fromARGB(255, 255, 255, 255),
         borderRadius: BorderRadius.circular(24),
         border: Border.all(color: Colors.black12),
         boxShadow: [
@@ -1358,7 +1358,7 @@ class TeamSection extends StatelessWidget {
                 ),
                 child: const Icon(
                   Icons.link,
-                  color: Colors.white,
+                  color: Color.fromARGB(255, 255, 255, 255),
                   size: 16,
                 ),
               ),
@@ -1438,19 +1438,19 @@ final List<ServiceItem> services = [
     imagePath: 'assets/cards/Cardblue.png'
   ),
   ServiceItem(
-    title: 'Automatic',
+    title: 'Parking History',
     icon: Icons.sensor_door,
     description: 'Seamless parking access with automated barriers.',
     imagePath: 'assets/cards/Cardgreen.png'
   ),
   ServiceItem(
-    title: 'Auto',
+    title: 'On site Parking',
     icon: Icons.sensor_door,
     description: 'Seamless parking access with automated barriers.',
     imagePath: 'assets/cards/Cardgrey.png'
   ),
   ServiceItem(
-    title: 'Auto',
+    title: 'Effective Parking ',
     icon: Icons.sensor_door,
     description: 'Seamless parking access with automated barriers.',
     imagePath: 'assets/cards/Cardgrey.png'
