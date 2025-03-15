@@ -1005,7 +1005,7 @@ Widget _buildReviewCard(Map<String, String> review, BoxConstraints constraints) 
  Widget _buildOfferCarddsSection() {
     final offers = [
       {
-        'title': '50% Off on First Booking',
+        'title': '50% Off on First Parking',
         'description': 'Get 50% off on your first parking slot booking.',
         'image': 'assets/cards/offer1.png',
       },
@@ -1286,34 +1286,34 @@ class TeamSection extends StatelessWidget {
   List<Widget> _buildTeamCards() {
     final teamMembers = [
       {
-        'name': 'John Smith',
-        'role': 'CEO and Founder',
-        'experience': '10+ years of experience in digital marketing. Expertise in SEO, PPC, and content strategy',
+        'name': 'Pranav P J',
+        'role': 'Full Stack Developer',
+        'experience': '4+ years of experience in Flutter and Java Springboot ',
       },
       {
-        'name': 'Jane Doe',
-        'role': 'Director of Operations',
-        'experience': '7+ years of experience in project management and team leadership. Strong organizational and communication skills',
+        'name': 'Gokul G Nair',
+        'role': 'Full Stack Developer',
+        'experience': '4+ years of experience in Flutter and Java Springboot ',
       },
       {
-        'name': 'Michael Brown',
-        'role': 'Senior SEO Specialist',
-        'experience': '5+ years of experience in SEO and content creation. Proficient in keyword research and on-page optimization',
+        'name': 'Adarsh Ajay',
+        'role': 'Full Stack Developer',
+        'experience': '4+ years of experience in Flutter and Java Springboot ',
       },
       {
-        'name': 'Emily Johnson',
-        'role': 'PPC Manager',
-        'experience': '3+ years of experience in paid search advertising. Skilled in campaign management and performance analysis',
+        'name': 'Adwaith S Gopal',
+        'role': 'Full Stack Developer',
+        'experience': '4+ years of experience in Flutter and Java Springboot ',
       },
       {
-        'name': 'Brian Williams',
-        'role': 'Social Media Specialist',
-        'experience': '4+ years of experience in social media marketing. Proficient in creating and scheduling content, analyzing metrics, and building engagement',
+        'name': 'Hilal Kalam',
+        'role': 'Full Stack Developer',
+        'experience': '4+ years of experience in Flutter and Java Springboot ',
       },
       {
-        'name': 'Sarah Kim',
+        'name': 'Akash ',
         'role': 'Content Creator',
-        'experience': '2+ years of experience in writing and editing. Skilled in creating compelling, SEO-optimized content for various industries',
+        'experience': '2+ years of experience in writing and editing. Skilled in creating compelling, Article-optimized content for various industries',
       },
     ];
 
